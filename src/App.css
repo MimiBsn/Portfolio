@@ -26,6 +26,16 @@
   filter: drop-shadow(0 0 2em #0000006f);
 }
 
+.logo.cv {
+  height: 5em;
+  width: 5em;
+  padding-bottom: 1.8em;
+}
+
+.logo.cv:hover {
+  filter: drop-shadow(0 0 2em #f6b02ded);
+}
+
 .read-the-docs {
   color: #888;
 }
