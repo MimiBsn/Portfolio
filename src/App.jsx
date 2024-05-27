@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Portfolio in progress ...</h1>
+
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -26,7 +27,7 @@ function App() {
         </p>
       </div> */}
       <p className="read-the-docs">
-        Meanwhile, you can check my LinkedIn profile and GitHub.
+        Meanwhile, you can check my LinkedIn profile and GitHub projects.
       </p>
     </>
   );
