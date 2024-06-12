@@ -1,32 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
   return (
     <div>
-      <h2>Contact me !</h2>
-      <form>
-        <label>
-          Name :
-          <input type="text" name="name" />
-        </label>
-        <label>
-          Email :
-          <input
-            type="email"
-            name="email"
-            placeholder="interestedperson@company.com"
-          />
-        </label>
-        <label>
-          Message :<textarea name="message"></textarea>
-        </label>
-        <button type="submit">Send</button>
-      </form>
       <div>
-        <a href="https://www.linkedin.com/in/alexandra-busson/">
+        <a href="mailto:[alexandra_b@live.fr]">Contact me !</a>
+        <a
+          href="https://www.linkedin.com/in/alexandra-busson/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           LinkedIn profile
         </a>
-        <a href="https://github.com/MimiBsn">GitHub profile</a>
+        <a
+          href="https://github.com/MimiBsn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub profile
+        </a>
       </div>
     </div>
   );

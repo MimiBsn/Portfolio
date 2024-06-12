@@ -1,0 +1,408 @@
+/*************************************MOBILE FIRST*******************************/
+@font-face {
+  font-family: "Grotesque";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Regular.eot"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Regular.ttf"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Regular.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Grotesque Black";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.eot"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.ttf"),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/BrandonGrotesque-Black.woff");
+  font-weight: bold;
+}
+
+.project1 {
+  height: 200px;
+}
+
+article.card1 {
+  position: relative;
+  left: 50%;
+  margin-top: 12rem;
+  width: 110%;
+  height: 360px;
+  transform: translate(-50%, -50%) translateZ(0);
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+article.card1 a {
+  color: #213547;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article.card1 .thumb1 {
+  width: auto;
+  height: 260px;
+  background: url("./assets/PokerExp.png") no-repeat center;
+  background-size: cover;
+  background-position: -2.3rem;
+  border-radius: 3px;
+}
+article.card1 .infos1 {
+  width: auto;
+  height: 350px;
+  position: relative;
+  padding: 14px 24px;
+  background: #fff;
+  transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card1 .infos1 .title1 {
+  position: relative;
+  margin: 10px 0;
+  letter-spacing: 3px;
+  color: #152536;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px #32577f;
+}
+
+article.card1 .infos1 .date1,
+article.card1 .infos1 .seats1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgba(21, 37, 54, 0.7);
+  font-family: "Grotesque", sans-serif;
+}
+article.card1 .infos1 .seats1 {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card1 .infos1 .txt1 {
+  font-family: "Merriweather", sans-serif;
+  line-height: 2;
+  font-size: 0.95rem;
+  color: rgba(21, 37, 54, 0.7);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card1.infos1 .details1 {
+  position: absolute;
+  left: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px 0;
+  padding: 20px 24px;
+  letter-spacing: 1px;
+  color: #4e958b;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card1:hover .infos1 {
+  transform: translateY(-260px);
+}
+article.card1:hover .infos1 .seats1,
+article.card1:hover .infos1 .txt1,
+article.card1:hover .infos1 .details1 {
+  opacity: 1;
+}
+
+/*******************************************PROJETC 2***************************************/
+.project2 {
+  height: 400px;
+  margin-bottom: 5rem;
+}
+
+article.card2 {
+  position: relative;
+  left: 50%;
+  margin-top: 12rem;
+  width: 110%;
+  height: 360px;
+  transform: translate(-50%, -50%) translateZ(0);
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+article.card2 a {
+  color: #213547;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article.card2 .thumb2 {
+  width: auto;
+  height: 260px;
+  background: url("./assets/WanderHer.png") no-repeat center;
+  background-size: cover;
+  border-radius: 3px;
+}
+article.card2 .infos2 {
+  width: auto;
+  height: 350px;
+  position: relative;
+  padding: 14px 24px;
+  background: #fff;
+  transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card2 .infos2 .title2 {
+  position: relative;
+  margin: 10px 0;
+  letter-spacing: 3px;
+  color: #152536;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px #32577f;
+}
+
+article.card2 .infos2 .date2,
+article.card2 .infos2 .seats2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgba(21, 37, 54, 0.7);
+  font-family: "Grotesque", sans-serif;
+}
+article.card2 .infos2 .seats2 {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card2 .infos2 .txt2 {
+  font-family: "Merriweather", sans-serif;
+  line-height: 2;
+  font-size: 0.95rem;
+  color: rgba(21, 37, 54, 0.7);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card2.infos2 .details2 {
+  position: absolute;
+  left: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px 0;
+  padding: 20px 24px;
+  letter-spacing: 1px;
+  color: #4e958b;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card2:hover .infos2 {
+  transform: translateY(-260px);
+}
+article.card2:hover .infos2 .seats2,
+article.card2:hover .infos2 .txt2,
+article.card2:hover .infos2 .details2 {
+  opacity: 1;
+}
+
+/*******************************************PROJETC 3***************************************/
+.project3 {
+  height: 400px;
+  margin-bottom: 5rem;
+}
+
+article.card3 {
+  position: relative;
+  left: 50%;
+  margin-top: 12rem;
+  width: 110%;
+  height: 360px;
+  transform: translate(-50%, -50%) translateZ(0);
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+article.card3 a {
+  color: #213547;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article.card3 .thumb3 {
+  width: auto;
+  height: 260px;
+  background: url("./assets/FFF.png") no-repeat center;
+  background-size: cover;
+  border-radius: 3px;
+}
+article.card3 .infos3 {
+  width: auto;
+  height: 350px;
+  position: relative;
+  padding: 14px 24px;
+  background: #fff;
+  transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card3 .infos3 .title3 {
+  position: relative;
+  margin: 10px 0;
+  letter-spacing: 3px;
+  color: #152536;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px #32577f;
+}
+
+article.card3 .infos3 .date3,
+article.card3 .infos3 .seats3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgba(21, 37, 54, 0.7);
+  font-family: "Grotesque", sans-serif;
+}
+article.card3 .infos3 .seats3 {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card3 .infos3 .txt3 {
+  font-family: "Merriweather", sans-serif;
+  line-height: 2;
+  font-size: 0.95rem;
+  color: rgba(21, 37, 54, 0.7);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card3.infos3 .details3 {
+  position: absolute;
+  left: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px 0;
+  padding: 20px 24px;
+  letter-spacing: 1px;
+  color: #4e958b;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card3:hover .infos3 {
+  transform: translateY(-260px);
+}
+article.card3:hover .infos3 .seats3,
+article.card3:hover .infos3 .txt3,
+article.card3:hover .infos3 .details3 {
+  opacity: 1;
+}
+/*******************************************PROJETC 4***************************************/
+.project4 {
+  height: 400px;
+}
+
+article.card4 {
+  position: relative;
+  left: 50%;
+  margin-top: 12rem;
+  width: 110%;
+  height: 360px;
+  transform: translate(-50%, -50%) translateZ(0);
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+article.card4 a {
+  color: #213547;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article.card4 .thumb4 {
+  width: auto;
+  height: 260px;
+  background: url("./assets/FarmAdventure.png") no-repeat center;
+  background-size: cover;
+  border-radius: 3px;
+}
+article.card4 .infos4 {
+  width: auto;
+  height: 350px;
+  position: relative;
+  padding: 14px 24px;
+  background: #fff;
+  transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card4 .infos4 .title4 {
+  position: relative;
+  margin: 10px 0;
+  letter-spacing: 3px;
+  color: #152536;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px #32577f;
+}
+
+article.card4 .infos4 .date4,
+article.card4 .infos4 .seats4 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgba(21, 37, 54, 0.7);
+  font-family: "Grotesque", sans-serif;
+}
+article.card4 .infos4 .seats4 {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card4 .infos4 .txt4 {
+  font-family: "Merriweather", sans-serif;
+  line-height: 2;
+  font-size: 0.95rem;
+  color: rgba(21, 37, 54, 0.7);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card4.infos4 .details4 {
+  position: absolute;
+  left: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px 0;
+  padding: 20px 24px;
+  letter-spacing: 1px;
+  color: #4e958b;
+  font-family: "Grotesque Black", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card4:hover .infos4 {
+  transform: translateY(-260px);
+}
+article.card4:hover .infos4 .seats4,
+article.card4:hover .infos4 .txt4,
+article.card4:hover .infos4 .details4 {
+  opacity: 1;
+}
