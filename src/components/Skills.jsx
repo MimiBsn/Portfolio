@@ -3,38 +3,49 @@ import App from "../App";
 
 const Skills = () => {
   return (
-    <div>
-      <div className="skillPres">
-        <p>
-          As a full-stack developer, I acquired a diverse set of skills that
-          allow me to tackle both front-end and back-end challenges. My toolkit
-          is designed to create seamless and dynamic web application from the
-          ground up. Here's a glimpse into what I can bring to the table.
-        </p>
+    <div className="skillPres">
+      <h2> My Skills</h2>
+      {/* <p>
+        As a full-stack developer, I acquired a diverse set of skills that allow
+        me to tackle both front-end and back-end challenges. <br />
+        Here's a glimpse into what I can bring to the table.
+      </p> */}
+      <div className="skills">
         <div className="skillCard">
-          <h1>JavaScript Game</h1>
+          <p>JavaScript ES6</p>
         </div>
         <div className="skillCard">
-          <h1>React JS</h1>
+          <p>React JS</p>
         </div>
         <div className="skillCard">
-          <h1>MongoDB</h1>
+          <p>Tailwind CSS</p>
         </div>
         <div className="skillCard">
-          <h1>Express</h1>
+          <p>MongoDB</p>
         </div>
         <div className="skillCard">
-          <h1>Node</h1>
+          <p>Express</p>
+        </div>
+        <div className="skillCard">
+          <p>Node</p>
+        </div>
+        <div className="skillCard">
+          <p>HTML5</p>
+        </div>
+        <div className="skillCard">
+          <p>CSS3</p>
         </div>
       </div>
-      <div>
-        <p>Skills I am learning</p>
-        <div className="skillCard">
-          <ul>
-            <li>TypeScript</li>
-            <li>Next.Js</li>
-            <li>TailWind</li>
-          </ul>
+      <h2>Skills I am learning</h2>
+      <div className="learningSkills">
+        <div className="learningSkillsCard">
+          <p>TypeScript</p>
+        </div>
+        <div className="learningSkillsCard">
+          <p>Next.Js</p>
+        </div>
+        <div className="learningSkillsCard">
+          <p>Data analytics</p>
         </div>
       </div>
     </div>
