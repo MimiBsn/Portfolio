@@ -153,6 +153,20 @@ article.card .thumb4 {
   border-radius: 3px;
 }
 
+/*******************************************COPROCITY***************************************/
+.coprocity {
+  height: 400px;
+  margin-bottom: 5rem;
+}
+
+article.card .thumbCoprocity {
+  width: auto;
+  height: 260px;
+  background: url("./assets/coprocity.png") no-repeat center;
+  background-size: cover;
+  border-radius: 3px;
+}
+
 /********************************TABLET AND OVER*************************/
 @media (min-width: 768px) {
   article.card {
