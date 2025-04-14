@@ -49,6 +49,36 @@ const Projects = () => {
             </div>
           </article>
         </div> */}
+
+        <div className="coprocity">
+          <h1>#Experience :</h1>
+          <div>
+            <article className="card">
+              <div className="thumbCoprocity"></div>
+              <div className="infos">
+                <h2 className="title">Coprocity</h2>
+                <h3 className="date">June 2024 - December 2024</h3>
+                <h3 className="seats">PHP, Tailwind, AlpineJS, Twig</h3>
+                <p className="txt">
+                  6 month intership to help in the redesign of the plateform.
+                  Discovered new languages like PHP, Tailwind, Twig, Alpine JS
+                  and Typescript. Thinking process around the plateform design,
+                  UI/UX experience, front-end integration of a dozen pages,
+                  scripts creation for automated tasks (centering tooltip, etc)
+                </p>
+                <a
+                  href="https://coprocity.com/"
+                  className="details"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit website
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+
         <div className="project2">
           <h1>#1 Project :</h1>
           <div>
